@@ -2,30 +2,30 @@
 
 ## Frontend ##
 # dependencies
-./frontend/node_modules
+frontend/node_modules
 
 # testing
-./frontend/coverage
+frontend/coverage
 
 # production
-./frontend/build
+frontend/build
 
 # misc
-./frontend/.DS_Store
-./frontend/*.pem
+frontend/.DS_Store
+frontend/*.pem
 
 # debug
-./frontend/npm-debug.log*
-./frontend/yarn-debug.log*
-./frontend/yarn-error.log*
-./frontend/.pnpm-debug.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
 
 # local env files
-./frontend/.env*.local
+frontend/.env*.local
 
 # typescript
-./frontend/*.tsbuildinfo
+frontend/*.tsbuildinfo
 
 ## Backend ##
-./backend/mongodata
-./backend/node_modules
+backend/mongodata
+backend/node_modules
