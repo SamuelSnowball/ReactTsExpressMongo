@@ -1,22 +1,25 @@
 ## ReactTsExpressMongo README:
-Note: 
+
+## Contents
+This repo contains 3 containers:
+1. react typescript frontend container exposed on port 3000 
+2. express backend container with placeholder /api routes and request validation, exposed on port 3001 to interact with a...
+3. mongo container
+
+## Usage
+docker-compose up -p reactmongo up --build
+
+## Notes: 
 1. These currently don't contain build stages within the dockerfile, could do within docker-compose?
 2. Frontend hotreload within docker is broken, downgrading react-scripts to 4.0.3 didn't work with node version
 Also tried adding in setup.js script from the github issue thread, also didn't work
 3. The mongo container will be called just that, be careful if have several instances running
 4. If ran the docker-compose up command previously the old network might throw an error, use docker network prune to remove it
 
-## Contents
-This repo contains 3 containers:
-1. react typescript frontend container exposed on port 3000 
-2. express backend container with api routes exposed on port 3001 to interact with a...
-3. mongo container
 
-## Usage
-docker-compose up -p reactmongo up --build
+##############################################
 
-
-## Steps to recreate the repo
+## Personal notes / steps to recreate the repo
 1. Created parent DIR 
 
 ## Frontend
